@@ -1,0 +1,14 @@
+n = int(input("enter a number :"))
+seed1 = 0
+seed2 = 1
+if n==2 :
+    print(seed1)
+    print(seed2)
+else :
+    print(seed1)
+    print(seed2)
+    for i in range (n-2):
+        next_fab = seed1+seed2
+        print(next_fab)
+        seed1=seed2
+        seed2=next_fab
